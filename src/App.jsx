@@ -1,16 +1,17 @@
 import "./index.css"
-import Content from "./Components/Content/Index"
 import Header from "./Components/Header"
 import Footer from "./Components/Footer"
+import Content from "./Components/Content"
 // import Counter from "./Components/State/Index"
 import Effect from "./Components/Effect/Index"
 import { BrowserRouter, Routes, Route } from "react-router-dom"
-import About from "./Components/About/Index"
-import Contact from "./Components/Contact/Index"
+import About from "./Components/About"
+
 import Main from "./Components/Effect/Index"
 import reducer from "./reducer"
 import { store } from "./store"
 import { Provider } from "react-redux"
+import Contact from "./Components/Contact/Index"
 function App() {
   return <>
     <Provider store={store}>
