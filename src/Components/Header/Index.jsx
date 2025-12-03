@@ -3,8 +3,8 @@ import { Link } from "react-router-dom"
 function Header(){
     return <header>
         <Link to={"/"}>Home</Link>
-        <Link to={"/"}>About</Link>
-        <Link to={"/"}>Contact</Link>
+        <Link to={"/About"}>About</Link>
+        <Link to={"/Contact"}>Contact</Link>
         <h1>This is a Paragraph</h1>
         </header>
        }
