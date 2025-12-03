@@ -1,6 +1,6 @@
 import axios from "axios";
 import { useState, useEffect } from "react";
-import List from "../List";
+import List from "../List/Index";
 function Main(){
     const [data,setData]=useState([]);
     useEffect(() => {
